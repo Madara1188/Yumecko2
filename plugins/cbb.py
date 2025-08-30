@@ -74,8 +74,8 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 f"<u><b>‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b></u>"
             ),
             reply_markup=InlineKeyboardMarkup([
-                [InlineKeyboardButton('BUY NOW', url=SCREENSHOT_URL),
-                 InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close')]
+                [InlineKeyboardButton(''ᴄʟᴏꜱᴇ', callback_data='close'),
+                 InlineKeyboardButton('ʙᴜʏ ɴᴏᴡ', url=SCREENSHOT_URL)]
             ])
         )
 
