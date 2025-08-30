@@ -36,8 +36,8 @@ FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Team_Dst")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
-START_PIC = os.environ.get("START_PIC", "https://graph.org/file/e2b1e700202cb741c7994-18617e5058f18fa03e.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/4440bd0e6087b14fccf3d-42a1719683d708b987.jpg")
+START_PIC = os.environ.get("START_PIC", "https://graph.org/file/8ead32d60231054405735-e1b5c2eb8d9ca9362c.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/7877b6fccebbc9bf1b278-c03f9bee1cf328e46b.jpg")
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
@@ -45,7 +45,7 @@ SHORTLINK_API = os.environ.get("SHORTLINK_API", "b28d734c810251e0717dc303e2592f4
 TUT_VID = os.environ.get("TUT_VID","https://t.me/SolveUrl/8")
 SHORT_MSG = "<b>⌯ ʜᴇʀᴇ ɪꜱ ʏᴏᴜʀ ᴅᴏᴡɴʟᴏᴀᴅ ʟɪɴᴋ, ᴍᴜꜱᴛ ᴡᴀᴛᴄʜ ᴛᴜᴛᴏʀɪᴀʟ ʙᴇꜰᴏʀᴇ ᴄʟɪᴄᴋɪɴɢ ᴏɴ ᴅᴏᴡɴʟᴏᴀᴅ...</b>"
 
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://graph.org/file/1a220b2bc3d4d079de377-0a0f14d220811820a3.jpg")
+SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://graph.org/file/7877b6fccebbc9bf1b278-c03f9bee1cf328e46b.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
@@ -92,7 +92,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "cursedfury")
 UPI_ID = os.environ.get("UPI_ID", "<a href=https://t.me/cursedfury>ᴅᴇʙᴏ</a></blockquote></b>")
-QR_PIC = os.environ.get("QR_PIC", "https://graph.org/file/4bf8fa709ee30d3f5f54b-501d86b0cb393f1eaa.jpg")
+QR_PIC = os.environ.get("QR_PIC", "https://graph.org/file/78edd06a2d54e9b72d9f0-d836e579b518637aa8.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/cursedfury")
 #--------------------------------------------
 #Time and its price
