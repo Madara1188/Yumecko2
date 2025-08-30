@@ -18,7 +18,7 @@ from logging.handlers import RotatingFileHandler
 #rohit_1888 on Tg
 #--------------------------------------------
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7981645596:AAGkEnd5ahtx_M6RAbChqSPSw8XUgkSnUV4")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8491456735:AAFstk4UsUbJ4DIqG_E-n6X4eqrxhWdbspU")
 APP_ID = int(os.environ.get("APP_ID", "29285243")) #Your API ID from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "9324e1e962756ac511288fbf4696ddfd") #Your API Hash from my.telegram.org
 #--------------------------------------------
@@ -29,8 +29,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5734659617")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Furina:Furina@cluster0.nqumuxn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Furina")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Yumeko:Yumeko@cluster0.zjqtrb4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "Yumeko")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "10"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/Team_Dst")
