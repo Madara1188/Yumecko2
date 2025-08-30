@@ -91,7 +91,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 #==========================(BUY PREMIUM)====================#
 
 OWNER_TAG = os.environ.get("OWNER_TAG", "cursedfury")
-UPI_ID = os.environ.get("UPI_ID", "@Cursedfury")
+UPI_ID = os.environ.get("UPI_ID", "t.me/cursedfury")
 QR_PIC = os.environ.get("QR_PIC", "https://graph.org/file/4bf8fa709ee30d3f5f54b-501d86b0cb393f1eaa.jpg")
 SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/cursedfury")
 #--------------------------------------------
