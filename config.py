@@ -93,7 +93,7 @@ USER_REPLY_TEXT = "ʙᴀᴋᴋᴀ ! ʏᴏᴜ ᴀʀᴇ ɴᴏᴛ ᴍʏ ꜱᴇɴᴘ
 OWNER_TAG = os.environ.get("OWNER_TAG", "cursedfury")
 UPI_ID = os.environ.get("UPI_ID", "<a href=https://t.me/cursedfury>ᴅᴇʙᴏ</a></blockquote></b>")
 QR_PIC = os.environ.get("QR_PIC", "https://graph.org/file/78edd06a2d54e9b72d9f0-d836e579b518637aa8.jpg")
-SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/cursedfury")
+SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/Adult_Eternals/8")
 #--------------------------------------------
 #Time and its price
 #7 Days
