@@ -73,12 +73,11 @@ async def cb_handler(client: Bot, query: CallbackQuery):
                 f"<b>›› ᴄʜᴇᴄᴋᴏᴜᴛ ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴs ᴘʀɪᴄᴇs: -  {UPI_ID}</b>\n\n"
                 f"<u><b>‼️ ᴀғᴛᴇʀ sᴇɴᴅɪɴɢ ᴀ sᴄʀᴇᴇɴsʜᴏᴛ ᴘʟᴇᴀsᴇ ɢɪᴠᴇ ᴜs sᴏᴍᴇ ᴛɪᴍᴇ ᴛᴏ ᴀᴅᴅ ʏᴏᴜ ɪɴ ᴛʜᴇ ᴘʀᴇᴍɪᴜᴍ ʟɪsᴛ.</b></u>"
             ),
-            reply_markup = InlineKeyboardMarkup(
-    [
-        [InlineKeyboardButton("ADMIN 24/7", url=SCREENSHOT_URL)],
-        [InlineKeyboardButton("🔒 Close", callback_data="close")],
-    ]
-)
+            reply_markup=InlineKeyboardMarkup([
+                [InlineKeyboardButton('BUY NOW', url=SCREENSHOT_URL'),
+                 InlineKeyboardButton('ᴄʟᴏꜱᴇ', callback_data='close')]
+            ])
+        )
 
 
     elif data == "close":
