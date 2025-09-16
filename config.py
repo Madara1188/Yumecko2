@@ -37,14 +37,14 @@ BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/cursedfury")
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "200"))
 #--------------------------------------------
 START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3312d6a.jpg")
-FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
+FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/57a36fef9f0c615b3aea8-7f3337aafea44f10fc.jpg")
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
 SHORTLINK_API = os.environ.get("SHORTLINK_API", "b28d734c810251e0717dc303e2592f45a6f34111")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in seconds
 TUT_VID = os.environ.get("TUT_VID","https://t.me/SolveUrl/8")
-SHORT_MSG = "<b>📊 ʜᴇʏ ʙʀᴏ/sɪs, \n\n‼️ ɢᴇᴛ ᴀʟʟ ꜰɪʟᴇꜱ ɪɴ ᴀ ꜱɪɴɢʟᴇ ʟɪɴᴋ ‼️ \n\n⌯ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴏᴘᴇɴ ʟɪɴᴋ ʙᴜᴛᴛᴏɴ..</b>"
+SHORT_MSG = "<b>‼️ ʏᴏᴜ'ʀᴇ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ‼️\n\n›› ᴘʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ғᴏʀ 21600 ꜱᴇᴄᴏɴᴅꜱ ✅\n\n›› ɪғ ʏᴏᴜ ᴅᴏɴᴛ ᴡᴀɴᴛ ᴛᴏ ᴏᴘᴇɴ sʜᴏʀᴛ ʟɪɴᴋs ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀᴋᴇ ᴘʀᴇᴍɪᴜᴍ sᴇʀᴠɪᴄᴇs.</b>"
 
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://graph.org/file/7877b6fccebbc9bf1b278-c03f9bee1cf328e46b.jpg")
 #--------------------------------------------
