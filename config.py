@@ -46,7 +46,7 @@ VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in second
 TUT_VID = os.environ.get("TUT_VID","https://t.me/SolveUrl/8")
 SHORT_MSG = "<b>‼️ ʏᴏᴜ'ʀᴇ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ‼️\n\n›› ᴘʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ғᴏʀ 21600 ꜱᴇᴄᴏɴᴅꜱ ✅\n\n›› ɪғ ʏᴏᴜ ᴅᴏɴᴛ ᴡᴀɴᴛ ᴛᴏ ᴏᴘᴇɴ sʜᴏʀᴛ ʟɪɴᴋs ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀᴋᴇ ᴘʀᴇᴍɪᴜᴍ sᴇʀᴠɪᴄᴇs.</b>"
 
-SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://graph.org/file/7877b6fccebbc9bf1b278-c03f9bee1cf328e46b.jpg")
+SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://graph.org/file/57a36fef9f0c615b3aea8-7f3337aafea44f10fc.jpg")
 #--------------------------------------------
 
 #--------------------------------------------
