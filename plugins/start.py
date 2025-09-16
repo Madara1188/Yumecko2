@@ -100,8 +100,6 @@ async def start_command(client: Client, message: Message):
                     caption=SHORT_MSG.format(  
                     ),
                     reply_markup=InlineKeyboardMarkup(btn),
-                    protect_content=False,
-                    quote=True
                 )
 
     # ✅ Check Force Subscription
