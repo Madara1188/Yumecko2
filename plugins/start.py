@@ -39,6 +39,22 @@ async def start_command(client: Client, message: Message):
     user_id = message.from_user.id
     id = message.from_user.id
     is_premium = await is_premium_user(id)
+    text = message.text
+
+    # ✅ Check Force Subscription
+    if not await is_subscribed(client, user_id):
+        #await temp.delete()
+        return await not_joined(client, message)
+
+    # File auto-delete time in seconds (Set your desired time in seconds here)
+    FILE_AUTO_DELETE = await db.get_del_timer()  # Example: 3600 seconds (1 hour)
+
+    # Add user if not already present
+    if not await db.present_user(user_id):
+        try:
+            await db.add_user(user_id)
+        except:
+            pass
 
 
     # Check if user is banned
@@ -62,7 +78,7 @@ async def start_command(client: Client, message: Message):
             'link': ""
         }
     else:
-        verify_status = await db.get_verify_status(id)
+        verify_status = await db.get_verify_status(user_id)
 
         # If TOKEN is enabled, handle verification logic
         if SHORTLINK_URL or SHORTLINK_API:
@@ -75,8 +91,8 @@ async def start_command(client: Client, message: Message):
                     return await message.reply("Your token is invalid or expired. Try again by clicking /start.")
                 await db.update_verify_status(id, is_verified=True, verified_time=time.time())
                 
-                current = await db.get_verify_count(id)
-                await db.set_verify_count(id, current + 1)
+                current = await db.get_verify_count(user_id)
+                await db.set_verify_count(user_id, current + 1)
                 if verify_status["link"] == "":
                     reply_markup = None
                 return await message.reply(
@@ -102,23 +118,8 @@ async def start_command(client: Client, message: Message):
                     reply_markup=InlineKeyboardMarkup(btn),
                 )
 
-    # ✅ Check Force Subscription
-    if not await is_subscribed(client, user_id):
-        #await temp.delete()
-        return await not_joined(client, message)
-
-    # File auto-delete time in seconds (Set your desired time in seconds here)
-    FILE_AUTO_DELETE = await db.get_del_timer()  # Example: 3600 seconds (1 hour)
-
-    # Add user if not already present
-    if not await db.present_user(user_id):
-        try:
-            await db.add_user(user_id)
-        except:
-            pass
 
     # Handle normal message flow
-    text = message.text
     if len(text) > 7:
         try:
             base64_string = text.split(" ", 1)[1]
