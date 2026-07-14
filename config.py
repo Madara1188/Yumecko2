@@ -41,7 +41,7 @@ FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/7877b6fccebbc9bf
 
 #--------------------------------------------
 SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Vplink.in")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "5ff9702e4b82be272fbd0e1056693a9dcd37b9b8)
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "5ff9702e4b82be272fbd0e1056693a9dcd37b9b8")
 TUT_VID = os.environ.get("TUT_VID","https://t.me/SolveShortner")
 SHORT_MSG = "<b>📊 ʜᴇʏ ʙʀᴏ/sɪs, \n\n‼️ ɢᴇᴛ ᴀʟʟ ꜰɪʟᴇꜱ ɪɴ ᴀ ꜱɪɴɢʟᴇ ʟɪɴᴋ ‼️ \n\n⌯ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴏᴘᴇɴ ʟɪɴᴋ ʙᴜᴛᴛᴏɴ..</b>"
 
