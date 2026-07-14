@@ -40,9 +40,9 @@ START_PIC = os.environ.get("START_PIC", "https://graph.org/file/8ead32d602310544
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/7877b6fccebbc9bf1b278-c03f9bee1cf328e46b.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "b28d734c810251e0717dc303e2592f45a6f34111")
-TUT_VID = os.environ.get("TUT_VID","https://t.me/SolveUrl/8")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Vplink.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "5ff9702e4b82be272fbd0e1056693a9dcd37b9b8)
+TUT_VID = os.environ.get("TUT_VID","https://t.me/SolveShortner")
 SHORT_MSG = "<b>📊 ʜᴇʏ ʙʀᴏ/sɪs, \n\n‼️ ɢᴇᴛ ᴀʟʟ ꜰɪʟᴇꜱ ɪɴ ᴀ ꜱɪɴɢʟᴇ ʟɪɴᴋ ‼️ \n\n⌯ ʏᴏᴜʀ ʟɪɴᴋ ɪꜱ ʀᴇᴀᴅʏ, ᴋɪɴᴅʟʏ ᴄʟɪᴄᴋ ᴏɴ ᴏᴘᴇɴ ʟɪɴᴋ ʙᴜᴛᴛᴏɴ..</b>"
 
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://graph.org/file/7877b6fccebbc9bf1b278-c03f9bee1cf328e46b.jpg")
