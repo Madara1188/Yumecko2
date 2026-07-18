@@ -29,8 +29,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5734659617")) # Owner id
 #--------------------------------------------
 PORT = os.environ.get("PORT", "8001")
 #--------------------------------------------
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Mikasa:Mikasa@cluster0.mpdh2fg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
-DB_NAME = os.environ.get("DATABASE_NAME", "Mikasa")
+DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://Linda:02@cluster0.beryyr3.mongodb.net/?appName=Cluster0")
+DB_NAME = os.environ.get("DATABASE_NAME", "weilai")
 #--------------------------------------------
 FSUB_LINK_EXPIRY = int(os.getenv("FSUB_LINK_EXPIRY", "120"))  # 0 means no expiry
 BAN_SUPPORT = os.environ.get("BAN_SUPPORT", "https://t.me/cursedfury")
@@ -40,10 +40,10 @@ START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://graph.org/file/57a36fef9f0c615b3aea8-7f3337aafea44f10fc.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "b28d734c810251e0717dc303e2592f45a6f34111")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "Vplink.in")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "5ff9702e4b82be272fbd0e1056693a9dcd37b9b8")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in seconds
-TUT_VID = os.environ.get("TUT_VID","https://t.me/SolveUrl/8")
+TUT_VID = os.environ.get("TUT_VID","https://t.me/SolveShortner/5")
 SHORT_MSG = "<b>‼️ ʏᴏᴜ'ʀᴇ ᴀʀᴇ ɴᴏᴛ ᴠᴇʀɪғɪᴇᴅ ‼️\n\n›› ᴘʟᴇᴀsᴇ ᴠᴇʀɪғʏ ᴀɴᴅ ɢᴇᴛ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ғᴏʀ 21600 ꜱᴇᴄᴏɴᴅꜱ ✅\n\n›› ɪғ ʏᴏᴜ ᴅᴏɴᴛ ᴡᴀɴᴛ ᴛᴏ ᴏᴘᴇɴ sʜᴏʀᴛ ʟɪɴᴋs ᴛʜᴇɴ ʏᴏᴜ ᴄᴀɴ ᴛᴀᴋᴇ ᴘʀᴇᴍɪᴜᴍ sᴇʀᴠɪᴄᴇs.</b>"
 
 SHORTENER_PIC = os.environ.get("SHORTENER_PIC", "https://graph.org/file/57a36fef9f0c615b3aea8-7f3337aafea44f10fc.jpg")
